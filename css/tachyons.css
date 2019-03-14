@@ -747,6 +747,17 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .fs-normal { font-style: normal; }
 /*
 
+   FONT VARIANT
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+.tabular-nums { font-variant-numeric: tabular-nums; }
+/*
+
    FONT WEIGHT
    Docs: http://tachyons.io/docs/typography/font-weight/
 
@@ -2182,6 +2193,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .fn-ns { float: none; }
  .i-ns { font-style: italic; }
  .fs-normal-ns { font-style: normal; }
+ .tabular-nums-ns { font-variant-numeric: tabular-nums; }
  .normal-ns { font-weight: normal; }
  .b-ns { font-weight: bold; }
  .fw1-ns { font-weight: 100; }
@@ -2606,6 +2618,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .fn-m { float: none; }
  .i-m { font-style: italic; }
  .fs-normal-m { font-style: normal; }
+ .tabular-nums-m { font-variant-numeric: tabular-nums; }
  .normal-m { font-weight: normal; }
  .b-m { font-weight: bold; }
  .fw1-m { font-weight: 100; }
@@ -3030,6 +3043,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .fn-l { float: none; }
  .i-l { font-style: italic; }
  .fs-normal-l { font-style: normal; }
+ .tabular-nums-l { font-variant-numeric: tabular-nums; }
  .normal-l { font-weight: normal; }
  .b-l { font-weight: bold; }
  .fw1-l { font-weight: 100; }

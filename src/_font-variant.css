@@ -1,0 +1,24 @@
+/*
+
+   FONT VARIANT
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+.tabular-nums { font-variant-numeric: tabular-nums; }
+
+@media (--breakpoint-not-small) {
+  .tabular-nums-ns       { font-variant-numeric: tabular-nums; }
+}
+
+@media (--breakpoint-medium) {
+  .tabular-nums-m       { font-variant-numeric: tabular-nums; }
+}
+
+@media (--breakpoint-large) {
+  .tabular-nums-l       { font-variant-numeric: tabular-nums; }
+}
