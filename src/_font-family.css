@@ -4,6 +4,8 @@
    Docs: http://tachyons.io/docs/typography/font-family/
 
 */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url("https://use.typekit.net/env4tkx.css");
 
 
 .sans-serif {
@@ -59,6 +61,17 @@ code, .code {
                sans-serif;
 }
 
+.source-sans {
+  font-family: 'Source Sans Pro',
+               sans-serif;
+}
+
+.korolev {
+  font-family: korolev,
+               sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
 /* Serif Typefaces */
 
